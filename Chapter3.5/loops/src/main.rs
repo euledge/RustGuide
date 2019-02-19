@@ -28,6 +28,16 @@ fn main() {
         println!("The value is: {}", a[index]);
         index = index + 1;
     }
+    index = 0;
+    while index < 5 {
+        println!("The value is: {}", a[index]);
+        index += 1;
+    }
+    index = 0;
+    while index < 5 {
+        println!("The value is: {}", a[index]);
+        index++;
+    }
 
     for element in a.iter() {
         println!("The value is: {}", element);
